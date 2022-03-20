@@ -1,0 +1,15 @@
+sudo su
+GIT (port-9418)
+
+
+basic commands
+
+-install git (yum install git -y)
+-git status
+-git init(to create local repository)
+	repository will be created in name master
+	to change local repository name(git branch -m <name>)
+-to move your file into staging area(git add <name>)
+-to move your file from staging area to local repository(git commit -m)
+-for second time moving a file from working stage to local repo(git commit -am)
+		no need to add
