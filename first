@@ -27,4 +27,35 @@ for specific user:
 -git log
 -git log --online
 -git log (log id) for specific log
-							d
+							Branch-
+
+master is the main branch
+we need to create a copy of the  content(master branch)
+and we should work on copy in feature branch
+
+
+feature branch create( git branch <feature branch name>)
+master branch to freature branch(git checkout fb name)
+
+Merge-
+
+
+smooth and conflict merge
+
+merge command (git merge <name>) 
+conflict merge- to resolve conflict we need to use conflict tool
+
+To resolve conflict , we need to use mergetool:
+-----------------------------------------------
+git config --global merge.tool vimdiff
+git config --global merge.conflictstyle diff3
+git config --global mergetool.prompt false
+
+git mergetool
+
+Rebase-git rebase master
+cherry pick-git cherry-pick logid
+
+git stash-to pull the code from staging area to working dir
+
+
