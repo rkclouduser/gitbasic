@@ -12,4 +12,19 @@ basic commands
 -to move your file into staging area(git add <name>)
 -to move your file from staging area to local repository(git commit -m)
 -for second time moving a file from working stage to local repo(git commit -am)
-		no need to add
+		no need to ad
+
+User configuration:
+------------------- 
+git config --global user.name "10amsession"
+git config --global user.name.email "sasijobsupporet@gmail.com"
+
+for specific user:
+------------------
+# git config user.name "mani"
+# git config user.email "manisa1980@gmail.com"
+
+-git log
+-git log --online
+-git log (log id) for specific log
+							d
